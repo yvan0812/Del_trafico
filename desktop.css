@@ -1,0 +1,33 @@
+.Main_Section_two_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Main_Section_one_Coins_container{
+ display: flex;
+ flex-direction: row;
+ 
+}
+
+.Main_Section_one_Coins_container h1{
+  padding:0 30px;
+}
+
+.Main_Section_three_container{
+  display: flex;
+  flex-direction: row;
+}
+.Main_Section_one{  
+  height: 60rem;
+}
+.Main_Section_one_Coins_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Main_Section_two_contain_bitcoin_baby{
+  display: none;
+}
