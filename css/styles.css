@@ -176,6 +176,7 @@ html{
   align-items: center;
 }
 
+/*section 2*/
 
 .Main_Section_two{
   display: flex;
@@ -187,7 +188,7 @@ html{
   align-items: center;
 }
 
-.Main_Section_two h1 {
+.Main_Section_two h3 {
   font-size: 25px;
   width:  300px;
   margin: 20px 0;
@@ -200,13 +201,17 @@ html{
   color: var(--grey);
 }
 
-.Main_Section_two_items h1{
+.Main_Section_two_items h4{
   color: var(--just-white);
   font-size: 1.8rem;
   width: 80%;
   text-align: center;
   line-height: 26px ;
   margin: 20px 0 20px 0;
+  font-size: 2rem;
+  text-align: start;
+  line-height: 26px;
+
 }
 .Main_Section_two_items p{
   color: var(--grey);
@@ -242,14 +247,7 @@ html{
   left: 16px;
 }
 
-.Main_Section_two_items h1{
  
-    font-size: 2rem;
- 
-    text-align: start;
-    line-height: 26px;
- 
-}
 
 .Main_Section_two_items p{
  
@@ -275,7 +273,7 @@ html{
 
 }
 
-.Main_Section_three_info h1{
+.Main_Section_three_info h5{
   font-size: 24px;
   text-align: center;
   margin-top: 40px;
@@ -295,7 +293,7 @@ html{
   align-items: center;
  
 }
-.Main_Section_three_price h1{
+.Main_Section_three_price h6{
   display: flex;
   width: 100px;
   height: 31px;
@@ -389,4 +387,3 @@ footer{
    line-height: 20px;
  }
 
- Main_Section_two
