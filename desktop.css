@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr  ;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px 40px;
+
 }
 
 .Main_Section_one_Coins_container{
@@ -28,6 +29,14 @@
   justify-content: center;
 }
 
-.Main_Section_two_contain_bitcoin_baby{
+.Main_Section_three_contain_bitcoin_baby{
+  display: none;
+}
+
+.Main_Section_three_contain_bitcoin_baby p{
+  display: none;
+}
+
+#title--three{
   display: none;
 }

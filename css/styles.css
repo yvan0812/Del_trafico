@@ -214,7 +214,6 @@ html{
   font-size: 2rem;
   text-align: start;
   line-height: 26px;
-
 }
 .Main_Section_two_items p{
   color: var(--grey);
@@ -222,7 +221,6 @@ html{
   text-align: center;
   line-height: 18px;
 }
-
 
 .Main_Section_two_contain{
   display: flex;
@@ -235,13 +233,12 @@ html{
   margin: 10px 0px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .Main_Section_two_items{
   width: 250px;
 }
-
-
 .Main_Section_two_items img{
   position: relative;
   width: 24px;
@@ -250,8 +247,6 @@ html{
   left: 16px;
 }
 
- 
-
 .Main_Section_two_items p{
  
   font-size: 1.4rem;
@@ -259,8 +254,8 @@ html{
   line-height: 18px;
 }
 
-.Main_Section_two_contain_bitcoin_baby{
-  margin-top: 30px;
+.Main_Section_three_contain_bitcoin_baby{
+ 
   width: 100%;
   height: auto;
 }
@@ -273,7 +268,6 @@ html{
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-
 }
 
 .Main_Section_three_info h5{
@@ -288,7 +282,6 @@ html{
   text-align: center;
   margin-top: 10px;
 }
-
 
 .Main_Section_three_price {
   display: flex;
@@ -315,26 +308,17 @@ html{
   display: flex;
   width: 80%;
   height: 60px;
+  text-align: center;
+  margin: auto;
 }
 
 .Main_Section_three_price_number{
   display: flex;
+  justify-content: center;
   flex-direction: row;
   height: 80px;
+  margin-top: 10px;
 }
-
-.Main_Section_three_price_box{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 240px;
-  border: 1px  ;
-  border-radius: 5px;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 4px 8px 0px rgb(157, 167, 167);
-}
-
 
 .Main_Section_three_price_number :nth-child(2){
   font-size: 72px;
@@ -355,11 +339,63 @@ html{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
   border: 2.5px solid var(--bitcoin-orange); 
   border-radius: 5px;
   width: 150px;
   height: 50px;
+  margin: auto;
 }
+
+.slide-bar{
+display: flex;
+height: 316px;
+overflow-x: scroll;
+overscroll-behavior-x: contain;
+scroll-snap-type: proximity;
+}
+
+.Main_Section_three_price_box{
+  position: relative;
+  scroll-snap-align: center;
+
+  width: 80%;
+  height: 240px;
+  min-width: 240px;
+  max-width: 300px;
+  border: 1px  ;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 4px 8px 0px rgb(157, 167, 167);
+}
+.Main_Section_three_price_box p{
+  text-align: center;
+}
+.Number-info-p{
+  width: 211px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
   background-color: var(--bitcoin-orange);
@@ -389,4 +425,16 @@ footer{
    text-decoration: none;
    line-height: 20px;
  }
-
+ .Main_Section_three_contain_bitcoin_baby_contain{
+  position: relative;
+ }
+ .Main_Section_three_contain_bitcoin_baby_contain p{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: var(--just-white);
+  font-size: x-large;
+  font-size: bold;
+   
+  top: 20%;
+ }
